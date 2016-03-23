@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootView"
+    tools:context="dev.mars.swipelayout.MainActivity" >
+	<dev.mars.swipelayout.widget.SwipeLayoutContainer
+	    android:id="@+id/swipeLayoutContainer"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+</RelativeLayout>
